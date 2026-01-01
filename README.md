@@ -62,7 +62,7 @@ Start the app:
 streamlit run app.py
 ```
 
-Open the URL shown in the terminal (usually http://localhost:8501).
+Open the URL for Web App for model (https://diabetes-prediction-using-logistic-regression-eauxyndbvdegrsfn.streamlit.app/).
 
 ### Run examples
 
@@ -90,5 +90,6 @@ Use `model_training.ipynb` to reproduce data preprocessing, training, and serial
 
 - The app expects input features in the same order/format used during training: gender, age, hypertension, heart_disease, smoke, bmi, sugar_level, blood_glucose_level.
 - If you need to regenerate the model, run the notebook and save `model.pkl` and `scaler.pkl` next to `app.py`.
+
 
 
